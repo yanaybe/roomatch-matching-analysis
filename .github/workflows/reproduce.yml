@@ -1,0 +1,15 @@
+name: reproduce
+on: [push, pull_request]
+jobs:
+  analysis:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.13" }
+      - run: pip install -r requirements.txt
+      - run: python data/generate_synthetic.py
+      - run: python analysis/run_analysis.py
+      - name: Committed findings match a fresh run
+        run: git diff --exit-code -- analysis/findings.md analysis/aggregates
+      - run: python -m pytest -q

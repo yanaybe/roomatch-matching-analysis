@@ -1,0 +1,357 @@
+{
+  "q1": {
+    "bands": [
+      {
+        "band": "15 (floor)",
+        "swipes": 48686,
+        "likes": 2759,
+        "pairs_both_saw": 5046,
+        "mutual_pairs": 21,
+        "two_way_chats": 2,
+        "like_rate": 0.056669268372838186,
+        "mutual_rate": 0.004161712247324614,
+        "chat_rate": 0.00039635354736424893
+      },
+      {
+        "band": "16-29",
+        "swipes": 51161,
+        "likes": 5123,
+        "pairs_both_saw": 5262,
+        "mutual_pairs": 72,
+        "two_way_chats": 12,
+        "like_rate": 0.10013486835675613,
+        "mutual_rate": 0.013683010262257697,
+        "chat_rate": 0.002280501710376283
+      },
+      {
+        "band": "30-44",
+        "swipes": 83300,
+        "likes": 12041,
+        "pairs_both_saw": 8781,
+        "mutual_pairs": 243,
+        "two_way_chats": 43,
+        "like_rate": 0.1445498199279712,
+        "mutual_rate": 0.02767338571916638,
+        "chat_rate": 0.004896936567589113
+      },
+      {
+        "band": "45-59",
+        "swipes": 87240,
+        "likes": 17469,
+        "pairs_both_saw": 9289,
+        "mutual_pairs": 479,
+        "two_way_chats": 88,
+        "like_rate": 0.2002407152682256,
+        "mutual_rate": 0.05156636882333943,
+        "chat_rate": 0.009473570890300355
+      },
+      {
+        "band": "60-74",
+        "swipes": 45712,
+        "likes": 11728,
+        "pairs_both_saw": 4946,
+        "mutual_pairs": 388,
+        "two_way_chats": 104,
+        "like_rate": 0.2565628281414071,
+        "mutual_rate": 0.07844723008491711,
+        "chat_rate": 0.021027092600080875
+      },
+      {
+        "band": "75+",
+        "swipes": 8955,
+        "likes": 2868,
+        "pairs_both_saw": 976,
+        "mutual_pairs": 118,
+        "two_way_chats": 39,
+        "like_rate": 0.32026800670016753,
+        "mutual_rate": 0.12090163934426229,
+        "chat_rate": 0.039959016393442626
+      }
+    ],
+    "auc_like": 0.6482447253615572,
+    "floor_share_of_cards": 0.14977819070062204
+  },
+  "q2": {
+    "n_swipes": 325054,
+    "n_test_swipes": 95118,
+    "auc_score_alone": 0.6464162909020086,
+    "auc_score_plus_popularity": 0.6969778407920338,
+    "auc_reweighted_app_factors": 0.7186265351524398,
+    "auc_reweighted_plus_gender": 0.7904793586701604,
+    "coefficients": {
+      "const": 0.815896617802454,
+      "gender_mismatch": -2.868574307622508,
+      "smoking_conflict": -1.207482649579357,
+      "pet_conflict": -0.4912153918679944,
+      "religious_gap": -0.25848591102568963,
+      "clean_conflict": -0.23311619133250033,
+      "sleep_opposite": -0.7864284249572105,
+      "budget_ratio": -1.2799235016817079,
+      "move_in_months": -0.21229301527187652,
+      "vibe_same": -0.0002594483475012373,
+      "social_sim": 0.22191680937953892,
+      "noise_sim": 0.2609605698889935,
+      "age_fit": 0.4346364386213004,
+      "target_popularity": 0.8351370473443064
+    },
+    "coef_ci95": {
+      "const": [
+        0.7465230228869366,
+        0.8852702127179715
+      ],
+      "gender_mismatch": [
+        -2.9373123098978513,
+        -2.799836305347165
+      ],
+      "smoking_conflict": [
+        -1.2590667427541014,
+        -1.1558985564046125
+      ],
+      "pet_conflict": [
+        -0.5430821960659838,
+        -0.4393485876700049
+      ],
+      "religious_gap": [
+        -0.27155177190817126,
+        -0.24542005014320803
+      ],
+      "clean_conflict": [
+        -0.24509453082903176,
+        -0.2211378518359689
+      ],
+      "sleep_opposite": [
+        -0.8215662436764799,
+        -0.7512906062379412
+      ],
+      "budget_ratio": [
+        -1.3610798739960992,
+        -1.1987671293673166
+      ],
+      "move_in_months": [
+        -0.2230572126317127,
+        -0.20152881791204036
+      ],
+      "vibe_same": [
+        -0.026119764552964428,
+        0.02560086785796195
+      ],
+      "social_sim": [
+        0.1810153388594536,
+        0.26281827989962425
+      ],
+      "noise_sim": [
+        0.22029060265526704,
+        0.30163053712272003
+      ],
+      "age_fit": [
+        0.3900768058599465,
+        0.47919607138265435
+      ],
+      "target_popularity": [
+        0.8149369653134718,
+        0.855337129375141
+      ]
+    },
+    "gender_mismatch_share_of_cards": 0.23061091387892474,
+    "standard_conflicts": {
+      "Gender preference not met": {
+        "data_pp": -18.612563722677308,
+        "app_points": 0,
+        "data_index": 175.77963259860542,
+        "app_index": 0.0,
+        "verdict": "missing"
+      },
+      "Smoker vs. minds smoking": {
+        "data_pp": -10.58857812337069,
+        "app_points": 35,
+        "data_index": 100.0,
+        "app_index": 100.0,
+        "verdict": "about right"
+      },
+      "Budgets 50% apart": {
+        "data_pp": -7.073495860258322,
+        "app_points": 7,
+        "data_index": 66.80307570896589,
+        "app_index": 20.0,
+        "verdict": "under-weighted"
+      },
+      "Cleanliness gap of 3": {
+        "data_pp": -7.98387339313293,
+        "app_points": 14,
+        "data_index": 75.40080736157805,
+        "app_index": 40.0,
+        "verdict": "under-weighted"
+      },
+      "Early bird vs. night owl": {
+        "data_pp": -7.881212822583898,
+        "app_points": 18,
+        "data_index": 74.43126669848898,
+        "app_index": 51.42857142857142,
+        "verdict": "under-weighted"
+      },
+      "Move-in 4 months apart": {
+        "data_pp": -7.903310614504056,
+        "app_points": 16,
+        "data_index": 74.63996130944327,
+        "app_index": 45.714285714285715,
+        "verdict": "under-weighted"
+      },
+      "Religious gap of 2": {
+        "data_pp": -5.87152746948186,
+        "app_points": 18,
+        "data_index": 55.45151956259791,
+        "app_index": 51.42857142857142,
+        "verdict": "about right"
+      },
+      "Pets vs. minds pets": {
+        "data_pp": -5.004240473113649,
+        "app_points": 20,
+        "data_index": 47.26074091164788,
+        "app_index": 57.14285714285714,
+        "verdict": "about right"
+      },
+      "Different lifestyle vibe": {
+        "data_pp": 0.002945478826596985,
+        "app_points": 12,
+        "data_index": 0.0,
+        "app_index": 34.285714285714285,
+        "verdict": "over-weighted"
+      },
+      "Social level 2 apart": {
+        "data_pp": -1.280034338907781,
+        "app_points": 9,
+        "data_index": 12.088821785075563,
+        "app_index": 25.71428571428571,
+        "verdict": "over-weighted"
+      }
+    }
+  },
+  "q3": {
+    "likes": 51988,
+    "unseen_share": 0.7816996229899208,
+    "liked_back_share_when_seen": 0.23279584104326373,
+    "first_week_share_of_impressions": 0.7170638013867873,
+    "impressions_per_profile_by_week": {
+      "0": 36.71,
+      "1": 7.38,
+      "2": 2.97,
+      "3": 1.63,
+      "4": 0.94,
+      "5": 0.64,
+      "6": 0.48,
+      "7": 0.44
+    },
+    "unseen_likes_target_returned": 23281,
+    "likes_you_queue_expected_new_mutuals": 5093.796587680599,
+    "current_mutual_pairs": 1321
+  },
+  "q4": {
+    "by_city": [
+      {
+        "city": "Herzliya",
+        "new_users": 205,
+        "matched_within_30d": 43,
+        "rate": 0.2097560975609756,
+        "lo": 0.15961978072923994,
+        "hi": 0.27056998775839386,
+        "city_pool": 268,
+        "median_budget": 3800.0
+      },
+      {
+        "city": "Tel Aviv",
+        "new_users": 1454,
+        "matched_within_30d": 349,
+        "rate": 0.24002751031636863,
+        "lo": 0.2187777155045241,
+        "hi": 0.26264737676061256,
+        "city_pool": 1817,
+        "median_budget": 3600.0
+      },
+      {
+        "city": "Haifa",
+        "new_users": 601,
+        "matched_within_30d": 147,
+        "rate": 0.24459234608985025,
+        "lo": 0.21191988178686588,
+        "hi": 0.2805090919171168,
+        "city_pool": 736,
+        "median_budget": 2100.0
+      },
+      {
+        "city": "Beer Sheva",
+        "new_users": 484,
+        "matched_within_30d": 124,
+        "rate": 0.256198347107438,
+        "lo": 0.21933364174439057,
+        "hi": 0.29690263597889793,
+        "city_pool": 590,
+        "median_budget": 1750.0
+      },
+      {
+        "city": "Netanya",
+        "new_users": 229,
+        "matched_within_30d": 68,
+        "rate": 0.29694323144104806,
+        "lo": 0.2415096872061712,
+        "hi": 0.3590769073331752,
+        "city_pool": 292,
+        "median_budget": 2475.0
+      },
+      {
+        "city": "Jerusalem",
+        "new_users": 787,
+        "matched_within_30d": 241,
+        "rate": 0.3062261753494282,
+        "lo": 0.2750293460559981,
+        "hi": 0.33930549109983693,
+        "city_pool": 977,
+        "median_budget": 2550.0
+      },
+      {
+        "city": "Ramat Gan",
+        "new_users": 426,
+        "matched_within_30d": 132,
+        "rate": 0.30985915492957744,
+        "lo": 0.26780895680980593,
+        "hi": 0.3553079001716947,
+        "city_pool": 534,
+        "median_budget": 3200.0
+      },
+      {
+        "city": "Rishon LeZion",
+        "new_users": 289,
+        "matched_within_30d": 95,
+        "rate": 0.328719723183391,
+        "lo": 0.2771178833216299,
+        "hi": 0.3848152309351961,
+        "city_pool": 353,
+        "median_budget": 2700.0
+      },
+      {
+        "city": "Ashdod",
+        "new_users": 108,
+        "matched_within_30d": 36,
+        "rate": 0.3333333333333333,
+        "lo": 0.25150495389408567,
+        "hi": 0.42661083268809985,
+        "city_pool": 137,
+        "median_budget": 2200.0
+      },
+      {
+        "city": "Petah Tikva",
+        "new_users": 243,
+        "matched_within_30d": 92,
+        "rate": 0.3786008230452675,
+        "lo": 0.3199522767101488,
+        "hi": 0.44102790756733234,
+        "city_pool": 296,
+        "median_budget": 2600.0
+      }
+    ],
+    "pool_vs_rate_correlation": -0.40630992362993634
+  },
+  "experiment": {
+    "baseline_matched_30d": 0.27496891835888937,
+    "n_per_arm_for_5pp": 1316.4711199078813
+  }
+}
