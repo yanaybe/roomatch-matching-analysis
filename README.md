@@ -79,6 +79,8 @@ has to be analysed:
 | **Answer scales are mapped onto a 7-step scale unevenly.** Cooking options *Never / Rarely / Sometimes / Daily* sit at steps 0, 1, 2, 6. | "Rarely vs Sometimes" counts as 1/6 apart, but "Sometimes vs Daily" counts as 4/6. Similarity on these fields is distorted. |
 | **Onboarding defaults (age 18–40, "No preference") are pre-filled.** | Defaults look like answers. Any analysis of preferences must treat them as possibly unanswered. |
 
+These issues were fixed in the app in [yanaybe/roommate-match#6](https://github.com/yanaybe/roommate-match/pull/6).
+
 ## Method
 
 1. **Port and verify the score.** [`roomatch/score.py`](roomatch/score.py) reproduces
